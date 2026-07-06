@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700;800;900&display=swap');
+
+/* ===========================
+   DESIGN TOKENS — Uber Light (B&W)
+   =========================== */
+:root {
+  --uber-black:     #000000;
+  --uber-white:     #FFFFFF;
+  --uber-grey-light:#F3F3F3;
+  --uber-grey-hover:#E5E5E5;
+  --uber-grey-border:#E2E2E2;
+  --uber-text:       #000000;
+  --uber-text-muted: #5E5E5E;
+  
+  --bs-primary:     #000000;
+  --bs-primary-rgb: 0, 0, 0;
+  --ucab-primary:   #000000;
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--uber-white) !important;
+  color: var(--uber-text) !important;
+}
+
+/* Forcing all text inside main content container to be black and highly readable */
+.ucab-main h1, 
+.ucab-main h2, 
+.ucab-main h3, 
+.ucab-main h4, 
+.ucab-main h5, 
+.ucab-main h6 {
+  color: var(--uber-black) !important;
+  font-weight: 700;
+}
+
+.ucab-main p, 
+.ucab-main span, 
+.ucab-main label, 
+.ucab-main td, 
+.ucab-main th,
+.ucab-main li {
+  color: var(--uber-black) !important;
+}
+
+.ucab-main .form-control,
+.ucab-main .form-select,
+.ucab-main select,
+.ucab-main select.form-control,
+.ucab-main select.form-select,
+.ucab-main textarea,
+.ucab-main input {
+  color: var(--uber-black) !important;
+  background-color: var(--uber-white) !important;
+  border: 1px solid var(--uber-black) !important;
+}
+
+.ucab-main .form-control::placeholder,
+.ucab-main textarea::placeholder {
+  color: var(--uber-text-muted) !important;
+  opacity: 0.8;
+}
+
+.ucab-main .text-muted, 
+.ucab-main .text-muted-sm {
+  color: var(--uber-text-muted) !important;
+}
+
+a {
+  color: var(--uber-black);
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===========================
+   TYPOGRAPHY
+   =========================== */
+.display-hero {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--uber-black) !important;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--uber-black) !important;
+}
+
+/* ===========================
+   GRID CARD STYLES (Screenshot style)
+   =========================== */
+.uber-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.uber-card-grid {
+  background-color: var(--uber-grey-light);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+.uber-card-grid:hover {
+  background-color: var(--uber-grey-hover);
+}
+
+.uber-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--uber-black) !important;
+  margin-bottom: 0.5rem;
+}
+
+.uber-card-desc {
+  font-size: 0.88rem;
+  color: var(--uber-text-muted) !important;
+  max-width: 65%;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.uber-card-btn {
+  background: var(--uber-white);
+  color: var(--uber-black) !important;
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.uber-card-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.uber-card-img-container {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  width: 75px;
+  height: 75px;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uber-card-img-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ===========================
+   FORM SEARCH PANEL (Screenshot style)
+   =========================== */
+.uber-search-container {
+  background: var(--uber-white);
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 440px;
+  width: 100%;
+}
+
+.city-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--uber-black) !important;
+}
+
+.city-badge span {
+  color: var(--uber-black) !important;
+}
+
+.city-badge a {
+  text-decoration: underline;
+  color: var(--uber-text-muted);
+  font-weight: 500;
+}
+
+.promo-badge {
+  background-color: #E6F4EA;
+  color: #137333;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.promo-badge strong {
+  color: #137333 !important;
+}
+
+/* Connecting Line Input Block */
+.connecting-inputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.connecting-line-graphic {
+  position: absolute;
+  left: 20px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background-color: var(--uber-black);
+  z-index: 10;
+}
+
+.dot-start {
+  position: absolute;
+  left: 17px;
+  top: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--uber-black);
+  z-index: 11;
+}
+
+.square-end {
+  position: absolute;
+  left: 17px;
+  bottom: 20px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--uber-black);
+  z-index: 11;
+}
+
+.uber-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.uber-input-wrapper input {
+  width: 100%;
+  background-color: var(--uber-grey-light) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 0.85rem 1rem 0.85rem 2.8rem !important;
+  font-size: 1rem !important;
+  color: var(--uber-black) !important;
+  font-weight: 500 !important;
+  transition: background-color 0.2s !important;
+}
+
+.uber-input-wrapper input:focus {
+  background-color: var(--uber-grey-hover) !important;
+  outline: none !important;
+}
+
+.input-icon-right {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.time-selector-pill {
+  background-color: var(--uber-grey-light);
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+  width: fit-content;
+}
+
+.time-selector-pill:hover {
+  background-color: var(--uber-grey-hover);
+}
+
+/* ===========================
+   BUTTONS
+   =========================== */
+.btn {
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--uber-black) !important;
+  color: var(--uber-white) !important;
+}
+
+.btn-primary:hover {
+  background-color: #222222 !important;
+}
+
+.btn-outline-primary {
+  border: 1.5px solid var(--uber-black) !important;
+  color: var(--uber-black) !important;
+  background: transparent !important;
+}
+
+.btn-outline-primary:hover {
+  background: var(--uber-black) !important;
+  color: var(--uber-white) !important;
+}
+
+.btn-dark {
+  background: var(--uber-grey-light);
+  color: var(--uber-black);
+}
+
+.btn-dark:hover {
+  background: var(--uber-grey-hover);
+}
+
+/* ===========================
+   SUGGESTION LIST
+   =========================== */
+.suggestion-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--uber-white);
+  border: 1px solid var(--uber-grey-border);
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 220px;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  z-index: 1000;
+}
+
+.suggestion-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-bottom: 1px solid var(--uber-grey-light);
+  text-align: left;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: var(--uber-grey-light);
+}
+
+.suggestion-item strong {
+  color: var(--uber-black) !important;
+  display: block;
+}
+
+.suggestion-item small {
+  color: var(--uber-text-muted) !important;
+}
+
+/* ===========================
+   CAR SELECTOR LIST (light mode)
+   =========================== */
+.vehicle-card {
+  background: var(--uber-white);
+  border: 1px solid var(--uber-grey-border) !important;
+  color: var(--uber-black);
+  cursor: pointer;
+  transition: all 0.15s;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.vehicle-card:hover {
+  background: var(--uber-grey-light);
+}
+
+.vehicle-card.selected {
+  background: var(--uber-grey-light);
+  border-color: var(--uber-black) !important;
+}
+
+/* ===========================
+   PREMIUM LIGHT CARD CONTAINER
+   =========================== */
+.ucab-card {
+  background: var(--uber-white) !important;
+  border: 1px solid var(--uber-grey-border) !important;
+  border-radius: 12px !important;
+}
+
+.ucab-card-header {
+  background: var(--uber-white) !important;
+  border-bottom: 1px solid var(--uber-grey-light) !important;
+}
+
+.text-muted-sm {
+  color: var(--uber-text-muted) !important;
+  font-size: 0.88rem;
+}
+
+/* ===========================
+   DRIVER DASHBOARD STATS
+   =========================== */
+.earnings-stat {
+  background: var(--uber-grey-light);
+  border: 1px solid var(--uber-grey-border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.earnings-stat .value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--uber-black) !important;
+}
+
+.earnings-stat .label {
+  font-size: 0.75rem;
+  color: var(--uber-text-muted) !important;
+  text-transform: uppercase;
+}
+
+/* ===========================
+   CLEAN LIGHT MODE TABLES (For support history)
+   =========================== */
+.table {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid var(--uber-grey-border) !important;
+}
+
+.table th {
+  background-color: var(--uber-grey-light) !important;
+  color: var(--uber-black) !important;
+  border-color: var(--uber-grey-border) !important;
+  font-weight: 600;
+  padding: 0.8rem;
+}
+
+.table td {
+  background-color: #ffffff !important;
+  color: var(--uber-black) !important;
+  border-color: var(--uber-grey-light) !important;
+  padding: 0.8rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) td {
+  background-color: var(--uber-grey-light) !important;
+}
+
+/* ===========================
+   CLEAN LIGHT MODE LIST GROUPS
+   =========================== */
+.list-group-item {
+  background-color: #ffffff !important;
+  color: var(--uber-black) !important;
+  border: 1px solid var(--uber-grey-border) !important;
+  border-radius: 8px !important;
+  margin-bottom: 0.5rem;
+  padding: 1rem !important;
+}
+
+.list-group-item strong {
+  color: var(--uber-black) !important;
+}
+
+.list-group-item small {
+  color: var(--uber-text-muted) !important;
+}

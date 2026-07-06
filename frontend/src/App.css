@@ -1,0 +1,320 @@
+/* ===========================
+   NAVBAR (Screenshot style: Full-width Flat Black Bar)
+   =========================== */
+.ucab-nav-blur {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999 !important;
+  background-color: #000000 !important;
+  border-bottom: 1px solid #1a1a1a;
+  height: 64px;
+  padding: 0 2rem !important;
+}
+
+.ucab-logo, 
+.ucab-logo span,
+.ucab-logo:hover,
+.ucab-logo span:hover {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: -0.03em;
+}
+
+.nav-link {
+  color: #a6a6a6 !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color 0.15s;
+  padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Sign up Pill Button */
+.btn-nav-signup {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 600;
+  padding: 0.45rem 1.2rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s, transform 0.1s;
+}
+
+.btn-nav-signup:hover {
+  background-color: #e5e5e5 !important;
+  transform: scale(1.02);
+}
+
+/* Log in button */
+.btn-nav-login {
+  background: transparent;
+  color: #ffffff !important;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-right: 1.25rem;
+}
+
+.btn-nav-login:hover {
+  color: #e5e5e5 !important;
+  text-decoration: underline;
+}
+
+/* Logout button */
+.btn-nav-logout {
+  background: transparent;
+  border: 1px solid #333333;
+  color: #ffffff !important;
+  border-radius: 20px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-nav-logout:hover {
+  border-color: #ff4444;
+  color: #ff4444 !important;
+}
+
+/* User chip inside header */
+.nav-user-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #111111;
+  border: 1px solid #222222;
+  border-radius: 30px;
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.nav-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000000 !important;
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-avatar span {
+  color: #000000 !important;
+}
+
+.nav-user-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff !important;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ===========================
+   SUB-NAV SWITCHER PILL (Screenshot style: Minimal Round)
+   =========================== */
+.sub-nav-bar {
+  display: inline-flex;
+  background-color: var(--uber-grey-light);
+  border-radius: 30px;
+  padding: 4px;
+  gap: 4px;
+  width: fit-content;
+  border: 1px solid var(--uber-grey-border);
+}
+
+.sub-nav-tab {
+  border-radius: 30px !important;
+  padding: 0.5rem 1.25rem !important;
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  transition: all 0.25s !important;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+}
+
+.sub-nav-tab.active {
+  background-color: var(--uber-black) !important;
+  color: var(--uber-white) !important;
+}
+
+.sub-nav-tab:not(.active) {
+  background-color: transparent !important;
+  color: var(--uber-black) !important;
+}
+
+.sub-nav-tab:not(.active):hover {
+  background-color: var(--uber-grey-hover) !important;
+  text-decoration: none !important;
+}
+
+/* ===========================
+   LAYOUT WRAPPERS
+   =========================== */
+.ucab-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.ucab-main {
+  flex: 1;
+  padding-top: 64px;
+}
+
+.page-container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.page-container-wide {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* ===========================
+   FOOTER (Clean light/dark layout)
+   =========================== */
+.ucab-footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3rem 0 2rem;
+  margin-top: auto;
+}
+
+.ucab-footer a {
+  color: #a6a6a6;
+  font-size: 0.88rem;
+}
+
+.ucab-footer a:hover {
+  color: #ffffff;
+}
+
+.ucab-footer-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.section-divider {
+  border-top: 1px solid #1a1a1a;
+  margin: 2rem 0;
+}
+
+/* ===========================
+   AUTH CARD
+   =========================== */
+.auth-page {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 440px;
+  background: #ffffff;
+  border: 1px solid var(--uber-grey-border) !important;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+}
+
+.auth-card-header {
+  padding: 2.5rem 2.5rem 1.5rem;
+  border-bottom: 1px solid var(--uber-grey-light);
+  text-align: center;
+}
+
+.auth-card-body {
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+.auth-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.auth-subtitle {
+  color: var(--uber-text-muted);
+  font-size: 0.9rem;
+}
+
+/* ===========================
+   MAP
+   =========================== */
+.map-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--uber-grey-border);
+}
+
+/* ===========================
+   LEAFLET LIGHT GREY MAP CUSTOMIZATION
+   =========================== */
+.leaflet-container {
+  border-radius: 12px;
+}
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #e2e2e2 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06) !important;
+}
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+.leaflet-routing-container {
+  display: none !important;
+}
+
+/* ===========================
+   ALERT BOXES
+   =========================== */
+.alert {
+  border-radius: 8px;
+  border: 1px solid var(--uber-grey-border);
+}
+
+.alert-success {
+  background-color: #e6f4ea;
+  border-color: #ceead6;
+  color: #137333;
+}
+
+.alert-info {
+  background-color: #e8f0fe;
+  border-color: #d2e3fc;
+  color: #1a73e8;
+}

@@ -1,0 +1,654 @@
+{
+  "users": [
+    {
+      "_id": "4cdac92702dbb4a66dc54f7c",
+      "name": "Amit Sharma",
+      "email": "amit.sharma@ucab.in",
+      "phone": "+91 98765 00001",
+      "password": "$2b$10$9Przjuz.wCHa3TCXd0H/LOPKHbOeWPXyxL0TdnECQUPqWZQ213Smy",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.169Z",
+      "updatedAt": "2026-07-05T17:56:47.169Z"
+    },
+    {
+      "_id": "d81811d025e489f7291b2f54",
+      "name": "Karan Patel",
+      "email": "karan.patel@ucab.in",
+      "phone": "+91 98765 00002",
+      "password": "$2b$10$2EF1G9oHxbMdAhiv.0YMBOk4eJxZ8j7UNQh1n8MNJylCXy6ZHCe1i",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.343Z",
+      "updatedAt": "2026-07-05T17:56:47.343Z"
+    },
+    {
+      "_id": "8d58090c64a0223ec1ba77f8",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@ucab.in",
+      "phone": "+91 98765 00003",
+      "password": "$2b$10$j3bBXg8YxudLttTGsIavM.62M0LeBphFzRnOKCvje/pW0yxiI/T.a",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.509Z",
+      "updatedAt": "2026-07-05T17:56:47.509Z"
+    },
+    {
+      "_id": "211e306a21117c462e313869",
+      "name": "Suresh Pillai",
+      "email": "suresh.pillai@ucab.in",
+      "phone": "+91 98765 00004",
+      "password": "$2b$10$7IRxv7RzVoemBPfQOoglwO2TfnnFWIiFGhGp4QZVasRRMiTliNspW",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.610Z",
+      "updatedAt": "2026-07-05T17:56:47.610Z"
+    },
+    {
+      "_id": "d500e48c1076b43e73f1c121",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@ucab.in",
+      "phone": "+91 98765 00005",
+      "password": "$2b$10$z56Kj91gfzJzIyhXYs6/.uY0m93omONKwXqSNRQcsNsJWb/y3b4NC",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.760Z",
+      "updatedAt": "2026-07-05T17:56:47.760Z"
+    },
+    {
+      "_id": "3567b2bc410f9d9b6e14f661",
+      "name": "Anil Reddy",
+      "email": "anil.reddy@ucab.in",
+      "phone": "+91 98765 00006",
+      "password": "$2b$10$7m5LklUKbetEPxw5MwD3fe9P3TPmaUgkK9eNSDBrvPiI4ivPwHpHu",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:47.935Z",
+      "updatedAt": "2026-07-05T17:56:47.935Z"
+    },
+    {
+      "_id": "7c21e4311aa41669d706457f",
+      "name": "Rohan Deshmukh",
+      "email": "rohan.deshmukh@ucab.in",
+      "phone": "+91 98765 00007",
+      "password": "$2b$10$mN5X21aGgdPSTWKJCHojb.ym6cyViyQ1kzh.LMQnj6zpovIoNyfbm",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:48.106Z",
+      "updatedAt": "2026-07-05T17:56:48.106Z"
+    },
+    {
+      "_id": "42fa3116e1b21f03308b82c7",
+      "name": "Pranav Nair",
+      "email": "pranav.nair@ucab.in",
+      "phone": "+91 98765 00008",
+      "password": "$2b$10$oBq4vBOPRmvYBtqso8pFYOa./N84diwRI6zVZ.a1KJB8etul4EQi.",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:48.238Z",
+      "updatedAt": "2026-07-05T17:56:48.238Z"
+    },
+    {
+      "_id": "6866e6cdf57c18fc54d5fd68",
+      "name": "Sanjay Dutt",
+      "email": "sanjay.dutt@ucab.in",
+      "phone": "+91 98765 00009",
+      "password": "$2b$10$nAtcMoxsHmvasCXPi7O8TO5sEUenxBYMzb1BeRel96dZafExK0exq",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:48.386Z",
+      "updatedAt": "2026-07-05T17:56:48.386Z"
+    },
+    {
+      "_id": "f8b2ac9e42bc5861037d808b",
+      "name": "Vijay Mallya",
+      "email": "vijay.mallya@ucab.in",
+      "phone": "+91 98765 00010",
+      "password": "$2b$10$DsjF5oK7UP.MBvrZpVDJP.QCHCNAyD5iFfqW7XnO76Fo2M0Wi.6.S",
+      "role": "driver",
+      "createdAt": "2026-07-05T17:56:48.527Z",
+      "updatedAt": "2026-07-05T17:56:48.527Z"
+    },
+    {
+      "_id": "c8efa5fe0323061c76f16124",
+      "name": "K HEMCHAND",
+      "email": "hemchandkrish827y@gmail.com",
+      "phone": "hemchandkrish87y@gmail.com",
+      "password": "$2b$10$1j/kDKmAKT1aGD/PTj352.PkcbIZ60qKcR72tgCK1539YUKh4CWy6",
+      "role": "rider",
+      "createdAt": "2026-07-05T18:00:49.035Z",
+      "updatedAt": "2026-07-05T18:00:49.035Z"
+    },
+    {
+      "_id": "15aa7f4c5f55c211b8661a65",
+      "name": "K HEMCHAND",
+      "email": "hemchandkrish587y@gmail.com",
+      "phone": "hemchandkrish87y@gmail.com",
+      "password": "$2b$10$qHMatin4EMBklyX46Q/2WucvlO/nkAoABAeaPpJ4EIEZiA87E/DMK",
+      "role": "rider",
+      "createdAt": "2026-07-05T18:01:25.957Z",
+      "updatedAt": "2026-07-05T18:01:25.957Z"
+    }
+  ],
+  "drivers": [
+    {
+      "_id": "2a1ba67b5598d85824e4547f",
+      "user": "4cdac92702dbb4a66dc54f7c",
+      "vehicleType": "bike",
+      "vehicleNumber": "DL-01-CA-1122",
+      "vehicleModel": "Hero Splendor",
+      "rating": 4.8,
+      "totalRatingSum": 48,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.967831462802252,
+        "lng": 77.57578547282793
+      },
+      "createdAt": "2026-07-05T17:56:47.169Z",
+      "updatedAt": "2026-07-05T17:56:47.169Z"
+    },
+    {
+      "_id": "63d02a1f9d7bb669bdfdf74c",
+      "user": "d81811d025e489f7291b2f54",
+      "vehicleType": "auto",
+      "vehicleNumber": "GJ-01-AB-3344",
+      "vehicleModel": "Bajaj RE Auto",
+      "rating": 4.6,
+      "totalRatingSum": 46,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.979540367698482,
+        "lng": 77.55828792063403
+      },
+      "createdAt": "2026-07-05T17:56:47.343Z",
+      "updatedAt": "2026-07-05T17:56:47.343Z"
+    },
+    {
+      "_id": "601be96f3bdc6c3321f033fc",
+      "user": "8d58090c64a0223ec1ba77f8",
+      "vehicleType": "car",
+      "vehicleNumber": "KA-03-ME-7788",
+      "vehicleModel": "Maruti Suzuki Swift",
+      "rating": 4.9,
+      "totalRatingSum": 49,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.958650919410372,
+        "lng": 77.58487567573226
+      },
+      "createdAt": "2026-07-05T17:56:47.509Z",
+      "updatedAt": "2026-07-05T17:56:47.509Z"
+    },
+    {
+      "_id": "db2ff03f7667188d4a9702ab",
+      "user": "211e306a21117c462e313869",
+      "vehicleType": "suv",
+      "vehicleNumber": "TN-07-BY-5566",
+      "vehicleModel": "Toyota Innova Crysta",
+      "rating": 4.7,
+      "totalRatingSum": 47,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.986149513564085,
+        "lng": 77.5624192991363
+      },
+      "createdAt": "2026-07-05T17:56:47.610Z",
+      "updatedAt": "2026-07-05T17:56:47.610Z"
+    },
+    {
+      "_id": "556d61c6b21084657b440334",
+      "user": "d500e48c1076b43e73f1c121",
+      "vehicleType": "bike",
+      "vehicleNumber": "RJ-14-CD-9900",
+      "vehicleModel": "Honda Activa",
+      "rating": 4.5,
+      "totalRatingSum": 45,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.97294428569408,
+        "lng": 77.5683241528812
+      },
+      "createdAt": "2026-07-05T17:56:47.760Z",
+      "updatedAt": "2026-07-05T17:56:47.760Z"
+    },
+    {
+      "_id": "3f01947fa7c4e675a5520cad",
+      "user": "3567b2bc410f9d9b6e14f661",
+      "vehicleType": "auto",
+      "vehicleNumber": "AP-02-TZ-1234",
+      "vehicleModel": "TVS King Auto",
+      "rating": 4.8,
+      "totalRatingSum": 48,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 13.000253449490963,
+        "lng": 77.55782844869253
+      },
+      "createdAt": "2026-07-05T17:56:47.935Z",
+      "updatedAt": "2026-07-05T17:56:47.935Z"
+    },
+    {
+      "_id": "0d1021d18a77186f8b000f1b",
+      "user": "7c21e4311aa41669d706457f",
+      "vehicleType": "car",
+      "vehicleNumber": "MH-12-PQ-4567",
+      "vehicleModel": "Hyundai i20",
+      "rating": 4.6,
+      "totalRatingSum": 46,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.967799163824823,
+        "lng": 77.54838586010338
+      },
+      "createdAt": "2026-07-05T17:56:48.106Z",
+      "updatedAt": "2026-07-05T17:56:48.106Z"
+    },
+    {
+      "_id": "428471b55f777762b297c7e0",
+      "user": "42fa3116e1b21f03308b82c7",
+      "vehicleType": "suv",
+      "vehicleNumber": "KL-07-XY-7890",
+      "vehicleModel": "Mahindra XUV500",
+      "rating": 4.9,
+      "totalRatingSum": 49,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.961220759551669,
+        "lng": 77.5533553027695
+      },
+      "createdAt": "2026-07-05T17:56:48.238Z",
+      "updatedAt": "2026-07-05T17:56:48.238Z"
+    },
+    {
+      "_id": "25fe037a201d4ef82491e19d",
+      "user": "6866e6cdf57c18fc54d5fd68",
+      "vehicleType": "bike",
+      "vehicleNumber": "MH-01-AA-0009",
+      "vehicleModel": "Royal Enfield Classic 350",
+      "rating": 4.4,
+      "totalRatingSum": 44,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.95799103364135,
+        "lng": 77.5733154753796
+      },
+      "createdAt": "2026-07-05T17:56:48.386Z",
+      "updatedAt": "2026-07-05T17:56:48.386Z"
+    },
+    {
+      "_id": "cefd1d4f5f1cafa458dcb30e",
+      "user": "f8b2ac9e42bc5861037d808b",
+      "vehicleType": "car",
+      "vehicleNumber": "KA-04-BB-9999",
+      "vehicleModel": "Honda City",
+      "rating": 4.8,
+      "totalRatingSum": 48,
+      "completedRides": 10,
+      "isAvailable": true,
+      "currentLocation": {
+        "lat": 12.966128408275098,
+        "lng": 77.57805254073527
+      },
+      "createdAt": "2026-07-05T17:56:48.527Z",
+      "updatedAt": "2026-07-05T17:56:48.527Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "b26afee02e1241e9bd064ef8",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "car",
+      "fare": 384,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:02:50.120Z",
+      "updatedAt": "2026-07-05T18:02:50.120Z"
+    },
+    {
+      "_id": "4690e7e572511fa601e63188",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "bike",
+      "fare": 249,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:12:54.818Z",
+      "updatedAt": "2026-07-05T18:12:54.818Z"
+    },
+    {
+      "_id": "1d8d4d07c23257906bbff370",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "dropLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "pickupCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "dropCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "vehicleType": "auto",
+      "fare": 317,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:16:04.351Z",
+      "updatedAt": "2026-07-05T18:16:04.351Z"
+    },
+    {
+      "_id": "db33125f59a71084754ac199",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "suv",
+      "fare": 490,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:18:59.585Z",
+      "updatedAt": "2026-07-05T18:18:59.585Z"
+    },
+    {
+      "_id": "71269a4a94275a19a18fe6c1",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "bike",
+      "fare": 249,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:24:08.429Z",
+      "updatedAt": "2026-07-05T18:24:08.429Z"
+    },
+    {
+      "_id": "ad8ec88c812de9ee56e80dac",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "auto",
+      "fare": 317,
+      "distance": 28.677726436106326,
+      "status": "pending",
+      "createdAt": "2026-07-05T18:24:49.728Z",
+      "updatedAt": "2026-07-05T18:24:49.729Z"
+    },
+    {
+      "_id": "d7b5516cabdf1749f65eb726",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "auto",
+      "fare": 317,
+      "distance": 28.677726436106326,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Karan Patel",
+        "phone": "+91 98765 00002",
+        "plate": "GJ-01-AB-3344",
+        "model": "Bajaj RE Auto",
+        "rating": 4.6,
+        "eta": "3 mins"
+      },
+      "createdAt": "2026-07-05T18:49:47.970Z",
+      "updatedAt": "2026-07-05T18:49:47.970Z"
+    },
+    {
+      "_id": "8f21c8f6755844a232d2df2e",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Indiranagar Metro Station, Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "vehicleType": "auto",
+      "fare": 107,
+      "distance": 7.715043480673765,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Karan Patel",
+        "phone": "+91 98765 00002",
+        "plate": "GJ-01-AB-3344",
+        "model": "Bajaj RE Auto",
+        "rating": 4.6,
+        "eta": "3 mins"
+      },
+      "createdAt": "2026-07-05T18:50:56.352Z",
+      "updatedAt": "2026-07-05T18:50:56.352Z"
+    },
+    {
+      "_id": "23557983543b06d6b89f19fe",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Tirupati Temple (Tirumala Hills), Tirupati",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 13.6833,
+        "lng": 79.35
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "car",
+      "fare": 2269,
+      "distance": 185.72377812837416,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Rajesh Kumar",
+        "phone": "+91 98765 00003",
+        "plate": "KA-03-ME-7788",
+        "model": "Maruti Suzuki Swift",
+        "rating": 4.9,
+        "eta": "4 mins"
+      },
+      "createdAt": "2026-07-05T18:51:30.454Z",
+      "updatedAt": "2026-07-05T18:51:30.454Z"
+    },
+    {
+      "_id": "46bec3c331db3ac19e3609ac",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "dropLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "pickupCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "dropCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "vehicleType": "car",
+      "fare": 384,
+      "distance": 28.677726436106326,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Rajesh Kumar",
+        "phone": "+91 98765 00003",
+        "plate": "KA-03-ME-7788",
+        "model": "Maruti Suzuki Swift",
+        "rating": 4.9,
+        "eta": "4 mins"
+      },
+      "createdAt": "2026-07-05T18:57:06.630Z",
+      "updatedAt": "2026-07-05T18:57:06.630Z"
+    },
+    {
+      "_id": "56304501ea4ba3133d1fa80b",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Kempa Thimmanahalli Cross, Sadahalli Main Road, Jade Garden, Uganavadi, Shettigere, Sadahalli, Devanahalli taluku, Bengaluru North, Karnataka, 562110, India",
+      "dropLocation": "Hourly Rental (1hr_10km)",
+      "pickupCoords": {
+        "lat": 13.2220635,
+        "lng": 77.6509289
+      },
+      "dropCoords": {
+        "lat": 13.2220635,
+        "lng": 77.6509289
+      },
+      "vehicleType": "car",
+      "fare": 250,
+      "distance": 0,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Rajesh Kumar",
+        "phone": "+91 98765 00003",
+        "plate": "KA-03-ME-7788",
+        "model": "Maruti Suzuki Swift",
+        "rating": 4.9,
+        "eta": "4 mins"
+      },
+      "createdAt": "2026-07-05T19:03:01.065Z",
+      "updatedAt": "2026-07-05T19:03:01.065Z"
+    },
+    {
+      "_id": "078067a7998ace676c4b77c8",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Kempa Thimmanahalli Cross, Sadahalli Main Road, Jade Garden, Uganavadi, Shettigere, Sadahalli, Devanahalli taluku, Bengaluru North, Karnataka, 562110, India",
+      "dropLocation": "Tirupati Temple (Tirumala Hills), Tirupati (To: ,  , Tel:  j , Item: electronics)",
+      "pickupCoords": {
+        "lat": 13.2220635,
+        "lng": 77.6509289
+      },
+      "dropCoords": {
+        "lat": 13.6833,
+        "lng": 79.35
+      },
+      "vehicleType": "car",
+      "fare": 2329,
+      "distance": 190.76690260740466,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Rajesh Kumar",
+        "phone": "+91 98765 00003",
+        "plate": "KA-03-ME-7788",
+        "model": "Maruti Suzuki Swift",
+        "rating": 4.9,
+        "eta": "4 mins"
+      },
+      "createdAt": "2026-07-05T19:03:28.619Z",
+      "updatedAt": "2026-07-05T19:03:28.619Z"
+    },
+    {
+      "_id": "99d38a35e287c5be603c1816",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "dropLocation": "Majestic Bus Station / KSR Railway Station, Bangalore",
+      "pickupCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "dropCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "vehicleType": "suv",
+      "fare": 490,
+      "distance": 28.677726436106326,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Suresh Pillai",
+        "phone": "+91 98765 00004",
+        "plate": "TN-07-BY-5566",
+        "model": "Toyota Innova Crysta",
+        "rating": 4.7,
+        "eta": "6 mins"
+      },
+      "createdAt": "2026-07-05T19:13:53.012Z",
+      "updatedAt": "2026-07-05T19:13:53.012Z"
+    },
+    {
+      "_id": "35d4e1e19e51c114b8a8a8d8",
+      "rider": "15aa7f4c5f55c211b8661a65",
+      "pickupLocation": "Kempegowda International Airport (BLR), Bangalore",
+      "dropLocation": "Majestic Bus Station / KSR Railway Station, Bangalore (To: hem18, Tel: 9440575896, Item: other)",
+      "pickupCoords": {
+        "lat": 13.1986,
+        "lng": 77.7066
+      },
+      "dropCoords": {
+        "lat": 12.9779,
+        "lng": 77.5696
+      },
+      "vehicleType": "auto",
+      "fare": 317,
+      "distance": 28.677726436106326,
+      "status": "accepted",
+      "assignedCaptain": {
+        "name": "Karan Patel",
+        "phone": "+91 98765 00002",
+        "plate": "GJ-01-AB-3344",
+        "model": "Bajaj RE Auto",
+        "rating": 4.6,
+        "eta": "3 mins"
+      },
+      "createdAt": "2026-07-05T19:14:28.080Z",
+      "updatedAt": "2026-07-05T19:14:28.080Z"
+    }
+  ],
+  "payments": [],
+  "tickets": [
+    {
+      "_id": "c86dad9ea151a1ce1b256d0e",
+      "user": "15aa7f4c5f55c211b8661a65",
+      "subject": "[BILLING] Fare is increasing day by day",
+      "message": "make sure fare is set and controlled",
+      "status": "open",
+      "createdAt": "2026-07-05T19:15:16.485Z",
+      "updatedAt": "2026-07-05T19:15:16.485Z"
+    }
+  ]
+}
