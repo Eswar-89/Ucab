@@ -1,8 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import bcrypt from 'bcryptjs';
+import { fileURLToPath } from 'url';
 
-const DB_FILE = path.resolve('./database.json');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DB_FILE = path.resolve(__dirname, '../database.json');
 
 // Initialize database file if it doesn't exist
 if (!fs.existsSync(DB_FILE)) {
