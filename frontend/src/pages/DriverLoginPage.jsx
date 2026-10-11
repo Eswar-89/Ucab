@@ -2,6 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../config';
 
 function DriverLoginPage() {
   const [form, setForm] = useState({ email: '', password: '' });
@@ -16,7 +17,7 @@ function DriverLoginPage() {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', form);
+      const res = await axios.post(`${API_URL}/auth/login`, form);
       const { token, user } = res.data;
 
       if (user.role !== 'driver') {

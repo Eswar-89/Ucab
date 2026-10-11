@@ -4,6 +4,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import axios from "axios";
 import { io } from "socket.io-client";
 import Swal from "sweetalert2";
+import { API_URL, SOCKET_URL } from "../config";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet-routing-machine";
@@ -17,7 +18,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png"
 });
 
-const socket = io("http://localhost:5000");
+const socket = io(SOCKET_URL);
 
 // Predefined database of South India locations (Bangalore, Tamil Nadu, Andhra Pradesh)
 const SOUTH_INDIA_LOCATIONS = [
@@ -148,7 +149,7 @@ function BookingsPage() {
   }, []);
 
   const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: API_URL,
     headers: { Authorization: `Bearer ${token}` }
   });
 

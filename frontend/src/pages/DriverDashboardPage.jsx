@@ -3,8 +3,9 @@ import axios from "axios";
 import { io } from "socket.io-client";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { API_URL, SOCKET_URL } from "../config";
 
-const socket = io("http://localhost:5000");
+const socket = io(SOCKET_URL);
 
 function DriverDashboardPage() {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ function DriverDashboardPage() {
   const token = localStorage.getItem("ucab_token");
 
   const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: API_URL,
     headers: { Authorization: `Bearer ${token}` }
   });
 

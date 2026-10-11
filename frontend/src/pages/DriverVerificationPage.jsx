@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { API_URL } from '../config';
 
 function DriverVerificationPage() {
   const [drivers, setDrivers] = useState([]);
@@ -8,7 +9,7 @@ function DriverVerificationPage() {
   const token = localStorage.getItem('ucab_token');
 
   const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: API_URL,
     headers: token ? { Authorization: `Bearer ${token}` } : {}
   });
 

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import { API_URL } from '../config';
 
 function DriverRegisterPage() {
   const [form, setForm] = useState({
@@ -19,7 +20,7 @@ function DriverRegisterPage() {
     e.preventDefault();
     setMessage('');
     try {
-      const res = await axios.post('http://localhost:5000/api/drivers/register', form, {
+      const res = await axios.post(`${API_URL}/drivers/register`, form, {
         headers: { Authorization: `Bearer ${token}` }
       });
       setMessage(`Driver registered. Verification pending. ID: ${res.data._id}`);

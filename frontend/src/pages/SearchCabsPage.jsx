@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import { API_URL } from '../config';
 import '../App.css';
 
 function SearchCabsPage() {
@@ -21,7 +22,7 @@ function SearchCabsPage() {
     e.preventDefault();
     setMessage('');
     try {
-      const res = await axios.post('http://localhost:5000/api/bookings/search', form, {
+      const res = await axios.post(`${API_URL}/bookings/search`, form, {
         headers: token ? { Authorization: `Bearer ${token}` } : {}
       });
       setResult(res.data);

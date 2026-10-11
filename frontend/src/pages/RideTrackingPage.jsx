@@ -2,6 +2,7 @@
 import { useEffect, useState, useRef } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { API_URL } from "../config";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import Swal from "sweetalert2";
@@ -36,7 +37,7 @@ function RideTrackingPage() {
 
   const token = localStorage.getItem("ucab_token");
   const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: API_URL,
     headers: { Authorization: `Bearer ${token}` }
   });
 

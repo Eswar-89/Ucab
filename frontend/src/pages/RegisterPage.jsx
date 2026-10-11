@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { API_URL } from "../config";
 
 function RegisterPage() {
   const navigate = useNavigate();
@@ -46,7 +47,7 @@ function RegisterPage() {
         payload.vehicleType = form.vehicleType;
       }
 
-      await axios.post("http://localhost:5000/api/auth/register", payload, {
+      await axios.post(`${API_URL}/auth/register`, payload, {
         headers: { "Content-Type": "application/json" }
       });
 
