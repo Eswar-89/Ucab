@@ -16,16 +16,36 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 
+const ALLOWED_ORIGINS = [
+  'https://ucab-sooty.vercel.app',
+  'http://localhost:5173',
+  'http://localhost:3000'
+];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (mobile apps, curl, Render health checks)
+    if (!origin || ALLOWED_ORIGINS.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS: origin ${origin} not allowed`));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+  credentials: true
+};
+
 const io = new Server(server, {
   cors: {
-    origin: '*',
-    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']
+    origin: ALLOWED_ORIGINS,
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+    credentials: true
   }
 });
 
 setIo(io);
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;

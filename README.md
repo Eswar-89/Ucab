@@ -11,8 +11,13 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-4.x-010101?logo=socket.io&logoColor=white)](https://socket.io)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
+[![Frontend](https://img.shields.io/badge/Frontend-Live%20on%20Vercel-black?logo=vercel&logoColor=white)](https://ucab-sooty.vercel.app)
+[![Backend](https://img.shields.io/badge/Backend-Live%20on%20Render-46E3B7?logo=render&logoColor=white)](https://ucab-iye9.onrender.com)
+
 A full-stack **taxi booking platform** built for real-time ride matching between riders and drivers —  
 powered by WebSockets, a file-based JSON database, and a beautiful React frontend.
+
+🌐 **[Live Demo → ucab-sooty.vercel.app](https://ucab-sooty.vercel.app)**
 
 </div>
 
